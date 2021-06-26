@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+input{
+    margin-left: 38%;
+    margin-top: 12%;
+    height: 30px;
+    width: 15%;
+    background-color: rgb(217, 244, 248);
+    border: none;
+    opacity: 0.3;
+    color: cyan;
+}
+input:hover{
+    opacity: 0.9;
+    color: darkcyan;
+    font-weight: 600;
+    font-size: 16px;
+}
+button{
+    width: 5%;
+    height: 30px;
+    border: none;
+    color: rgb(23, 181, 209);
+    background-color: rgb(217, 244, 248);
+}
+button:hover{
+    font-size: 15px;
+}
+
+body{
+    background: url('https://t3.ftcdn.net/jpg/01/87/20/84/360_F_187208476_uhr03YJDv6TB0KMRe7TRHcXbKnKRgtYQ.jpg') no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+#output{
+    margin-left: 18%;
+    margin-top: -11%;
+    width: 20%;
+    opacity: 0.5;
+    cursor: pointer;
+}
+#output:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+section {
+    margin-left: 55%;
+    margin-top: 10%;
+    height: 100px;
+    width: 20%;
+    z-index: 4;
+}
+
+p {
+    color: rgb(3, 54, 63);
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 4%;
+}
+p:hover{
+    font-size: 50px;
+    transition: 1s;
+}
